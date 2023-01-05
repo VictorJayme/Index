@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+    background-image: url(assets/jackson-sophat-_t-l5FFH8VA-unsplash.jpg);
+    
+}
+.container 
+{
+    font-size: 10px;
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 10%;
+    left: 66%;
+    border-color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-width: medium;
+    border-style: solid;
+
+
+}
+.container1
+{
+    font-size: 40px;
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 10%;
+    left: 58%;
+    border-color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-width: medium;
+    border-style: solid;
+
+
+}
+.container2
+{
+    font-size: 40px;
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    border-color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-width: medium;
+    border-style: solid;
+
+
+}
+.container3{
+    font-size: 40px;
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    border-color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-width: medium;
+    border-style: solid;
+
+}
+.dura h1{
+    font-size: 50px;
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    border-color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-width: medium;
+    border-style: solid;
+    transform: translate(0%, -50%);
+
+}
+.dura p{
+    font-size: 5px;
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 33%;
+    left: 47%;
+    border-color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-width: medium;
+    border-style: solid;
+    transform: translate(0%, -50%);
+    
+}
+.dura h3{
+    font-size: 12px;
+    font-family: Times;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    border-color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-width: medium;
+    border-style: solid;
+    transform: translate(0%, -50%);
+    
+}
+.durates{
+    top: 50%;
+    left: 43%;
+    transform: translate(0, 50%);
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+    outline: 2px solid red;
+    padding: 10px 20px;
+    overflow: hidden;
+    transition: color 1s;
+}
+.durates:hover{
+    color: #090909;
+}
+.durates:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    z-index: -1;
+    width: 150%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+    transform: scaleX(0) skewX(35deg);
+    transform-origin: left;
+    transition: transform 1s;
+}
+.durates:hover::before{
+    transform: scaleX(1) skewX(35deg);
+}
